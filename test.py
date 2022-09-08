@@ -25,7 +25,7 @@ while True: # retrieve the data of IMU and Gaze every sec
 
 
 # capture images from RTSP video
-# cap = cv2.VideoCapture("rtsp://TG03B-080201024101.local:8554/live/all")
+# cap = cv2.VideoCapture("rtsp://YOUR_DEVICE_ADDRESS:8554/live/all")
 # print("cv stream established")
 # while(cap.isOpened()):
 #     ret, frame = cap.read()
