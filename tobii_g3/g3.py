@@ -417,6 +417,15 @@ class G3Client:
     @property
     def battery_state(self):
         return self.get_property("system/battery", "state")
+    
+    
+    @property
+    def imudataRT(self):
+        return self.get_property("rudimentary", "imu-sample")
+
+    @property
+    def gazedataRT(self):
+        return self.get_property("rudimentary", "gaze-sample")
 
     @property
     def system_time(self):
