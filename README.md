@@ -4,3 +4,7 @@ real-time gaze/imu data transferring
 # tobii_g3
 
 Python implementation of the Tobii Pro Glasses 3 API, using websockets
+
+Install by running the following command in project's directory:
+
+`pip install .`
